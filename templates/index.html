@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section id="home" class="bg-cover hero-section" style="background-image: url('{% static 'img/bg.jpg' %}')">
+    <div class="overlay"></div>
+    <div class="container text-white text-center">
+        <div class="row">
+            <div class="col-12">
+               <h1 class="display-4" data-aos="zoom-in">CNNCER</h1>
+               <p class="my-4" data-aos="fade-up">HAJSKHAKSJDHJAKSDasdasd asdasdas dasda asdasdasasdasasd asdasdasdasdas
+                <br> have suffered alteration noowasd b;a basldkajsd
+               </p>
+               <a href="#" class="btn btn-main" data-aos="fade-up">Get Started</a>
+            </div>
+    </div>
+    </div>
+</section>
+
+ <!--services-->
+ <section id="services" class="text-center"> 
+    <div class="contain">
+      <div class="row">
+        <div class="col-12 section-intro text-center" data-aos="fade-up">
+            <h1>Our Services</h1>
+            <div class="divider"></div>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magnam ut in adipisci ipsa! Ab, voluptates illum distinctio
+                <br> repellendus eligendi accusantium quis amet praesentium, rerum laboriosam temporibus explicabo aspernatur repellat!
+            </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="wrapper pb-0">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                      <div class="card text-center">
+                          <div class="icon-box">
+                              <img decoding="async" src="{% static 'img/app.jpg'%}">
+                          </div>
+                          <div>
+                              <h4>Easy Appointment</h4>
+                              <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                      <div class="card text-center">
+                          <div class="icon-box">
+                              <img decoding="async" src="{% static 'img/app.jpg'%}">
+                          </div>
+                          <div>
+                              <h4>Emergency Service</h4>
+                              <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in">
+                      <div class="card text-center">
+                          <div class="icon-box">
+                              <img decoding="async" src="{% static 'img/app.jpg'%}">
+                          </div>
+                          <div>
+                              <h4>24/7 Service</h4>
+                              <p>Lorem Ipsum is simply is very dummy text of the printings and type setting</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+ </section>
+
+ <!--video-->
+ <section id="about" class="bg-cover" style="background-image: url('{% static 'img/bg.jpg'%}');">
+  <div class="overlay"></div>
+  <div class="container text-white text-center">
+    <div class="col-12 section-intro text-center">
+      <h1>Watch Our Video</h1>
+      <div class="divider"></div>
+      <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magnam ut in adipisci ipsa! Ab, voluptates illum distinctio
+          <br> repellendus eligendi accusantium quis amet praesentium, rerum laboriosam temporibus explicabo aspernatur repellat!
+      </p>
+      <a href="#" class="video-btn"><i class="bx bx-play"></i></a>
+  </div>
+  </div>
+  </div>
+ </section>
+ <!--form-->
+<section id="about" class="bg-cover">
+    <div class="wrapper pb-0">
+    <div class="container1">
+    <div class="row">
+        <div class="col-12 section-intro text-center " data-aos="fade-up">
+            <h1>Geti In Touch</h1>
+            <div class="divider"></div>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magnam ut in adipisci ipsa! Ab, voluptates illum distinctio
+                <br> repellendus eligendi accusantium quis amet praesentium, rerum laboriosam temporibus explicabo aspernatur repellat!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-md-8 mx-auto">
+        <form action="#" class="row g-4">
+        <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Full Name">
+        </div>
+        <div class="form-group col-md-6">
+            <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+        <div class="form-group col-md-12">
+            <input type="text" class="form-control" placeholder="Subject">
+        </div>
+        <div class="form-group col-md-12">
+            <textarea name="#" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-main" type="submit">Send Message</button>
+        </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+{% endblock %}
